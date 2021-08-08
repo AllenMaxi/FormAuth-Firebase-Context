@@ -43,6 +43,9 @@ const history = useHistory();
                             <Form.Control type="password" required ref={passwordRef}/>
                         </Form.Group>
                         <Button disabled={loading} className="w-100" type="submit">Login</Button>
+                        <div className="w-100 text-center nt-2">
+                            <Link to="/forgot-password">Forgot Password?</Link>
+                        </div>
                     </Form>
                 </Card.Body>
             </Card>
